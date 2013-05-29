@@ -1,6 +1,6 @@
 package com.droidhits.genesisdroid;
 
-import com.tizmoplay.androgens.R;
+import com.droidhits.genesisdroid.R;
 
 import android.content.Context;
 import android.util.AttributeSet;

@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
-import com.tizmoplay.androgens.R;
+import com.droidhits.genesisdroid.R;
 
 import android.content.Context;
 import android.view.LayoutInflater;

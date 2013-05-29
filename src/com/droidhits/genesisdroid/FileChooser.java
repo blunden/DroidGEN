@@ -11,7 +11,7 @@ import java.util.zip.ZipInputStream;
 
 //import com.droidhits.downloader.DecompressListener;
 
-import com.tizmoplay.androgens.R;
+import com.droidhits.genesisdroid.R;
 
 import android.app.Activity;
 import android.content.Intent;

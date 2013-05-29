@@ -5,7 +5,7 @@ package com.droidhits.genesisdroid;
 import java.io.File;
 import java.util.Map;
 
-import com.tizmoplay.androgens.R;
+import com.droidhits.genesisdroid.R;
 
 
 

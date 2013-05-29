@@ -2,7 +2,7 @@
 
 package com.droidhits.genesisdroid;
 
-import com.tizmoplay.androgens.R;
+import com.droidhits.genesisdroid.R;
 
 import android.app.ListActivity;
 import android.content.Context;

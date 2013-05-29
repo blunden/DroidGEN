@@ -4,7 +4,7 @@ package com.droidhits.genesisdroid;
 import java.io.IOException;
 import java.io.InputStream;
 
-import com.tizmoplay.androgens.R;
+import com.droidhits.genesisdroid.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;
