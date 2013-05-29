@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="package_name">"com.tizmoplay.androgens"</string>
+	<string name="package_name">"com.droidhits.genesisdroid"</string>
 	<string name="app_version">1</string>
-    <string name="app_name">AndroGens</string>
+    <string name="app_name">DroidGEN</string>
     <string name="loadRomButtonLabel">Load ROM</string>
     <string name="resumeButtonLabel">Resume</string>
     <string name="aboutButtonLabel">About</string>
     <string name="exitButtonLabel">Exit</string>
     <string name="settingButtonLabel">Settings</string>
-    <string name="Copyright">Copyright 2012 - DroidHits / TizmoPlay</string>
+    <string name="Copyright">Copyright 2012 - DroidHits / blunden</string>
 </resources>
