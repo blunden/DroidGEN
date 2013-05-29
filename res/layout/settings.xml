@@ -1,9 +1,5 @@
 <PreferenceScreen 
-		xmlns:android="http://schemas.android.com/apk/res/android"
-		xmlns:seekbar="http://schemas.android.com/apk/res/com.tizmoplay.androgens">
-
-    
-    <com.tizmoplay.androgens.AdPreference android:layout="@layout/ad_layout"/>
+		xmlns:android="http://schemas.android.com/apk/res/android">
     
 	<PreferenceCategory
                 android:title="Emulation">
@@ -49,9 +45,7 @@
 	            android:entries="@array/hardwareFilterArray"
 	            android:entryValues="@array/hardwareFilterValues" />						
 				
-	</PreferenceCategory>	
-
-	<com.tizmoplay.androgens.AdPreference android:layout="@layout/ad_layout"/>
+	</PreferenceCategory>
 	
 	<PreferenceCategory
                 android:title="Input">	
