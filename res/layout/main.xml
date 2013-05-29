@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="AndroGens"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="Sega Megadrive/Genesis Emulator"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        ads:adSize="BANNER"
+        ads:adUnitId="a1507c121c4c649"
+        ads:loadAdOnCreate="true" >
+    </com.google.ads.AdView>
+
+    <Button
+        android:id="@+id/buttonLoadRom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="4dip"
+        android:layout_weight="0"
+        android:text="@string/loadRomButtonLabel"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace" >
+    </Button>
+
+    <Button
+        android:id="@+id/buttonResume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="4dip"
+        android:layout_weight="0"
+        android:text="@string/resumeButtonLabel"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace" >
+    </Button>
+
+    <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="4dip"
+        android:layout_weight="0"
+        android:text="@string/settingButtonLabel"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace" >
+    </Button>
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="4dip"
+        android:layout_weight="0"
+        android:text="@string/exitButtonLabel"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace" >
+    </Button>
+    
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+    </LinearLayout>
+    
+
+</LinearLayout>
+

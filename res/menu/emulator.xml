@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Load State" android:id="@+id/menuLoadState"></item>       
+    <item android:title="Load ROM" android:id="@+id/menuLoadROM"></item>
+    <item android:title="Settings" android:id="@+id/menuSettings"></item>
+    <item android:title="Select State" android:id="@+id/menuSelectState">
+		<menu>
+            <item android:id="@+id/menuState0" android:title="0" />
+			<item android:id="@+id/menuState1" android:title="1" />
+			<item android:id="@+id/menuState2" android:title="2" />
+			<item android:id="@+id/menuState3" android:title="3" />
+			<item android:id="@+id/menuState4" android:title="4" />
+			<item android:id="@+id/menuState5" android:title="5" />
+			<item android:id="@+id/menuState6" android:title="6" />
+			<item android:id="@+id/menuState7" android:title="7" />
+			<item android:id="@+id/menuState8" android:title="8" />
+			<item android:id="@+id/menuState9" android:title="9" />
+			<item android:id="@+id/menuState10" android:title="Auto" />												
+        </menu>    
+    </item>
+    <item android:title="Save State" android:id="@+id/menuSaveState"></item>
+    <item android:title="Reset Game" android:id="@+id/menuResetGame"></item>         
+    <item android:title="Menu" android:id="@+id/menuMenu"></item>    
+    <!-- <item android:title="Exit" android:id="@+id/menuExit"></item>  -->    
+</menu>
