@@ -44,7 +44,8 @@ public class SettingsActivity extends PreferenceActivity implements
      private ProgressDialog      _progressDialog = null;
      private String              _dirKeyChanging = Preferences.PREF_DIR_ROMS;
 
-     @Override
+     @SuppressWarnings("deprecation")
+	 @Override
      protected void onCreate(Bundle savedInstanceState)
      {
           Log.d(LOG_TAG, "onCreate()");
@@ -222,7 +223,8 @@ public class SettingsActivity extends PreferenceActivity implements
 
           for (String key : allPrefs.keySet())
           {
-               Preference pref = findPreference(key);
+            @SuppressWarnings("deprecation")
+			Preference pref = findPreference(key);
 
                if (pref instanceof ListPreference)
                {
@@ -236,7 +238,8 @@ public class SettingsActivity extends PreferenceActivity implements
      public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
                String key)
      {
-          Preference pref = findPreference(key);
+          @SuppressWarnings("deprecation")
+		Preference pref = findPreference(key);
 
           if (pref instanceof ListPreference)
           {
@@ -271,7 +274,8 @@ public class SettingsActivity extends PreferenceActivity implements
                     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
                     
                     // mod summary
-                    Preference dirPref = findPreference(_dirKeyChanging);
+                    @SuppressWarnings("deprecation")
+					Preference dirPref = findPreference(_dirKeyChanging);
                     dirPref.setSummary(directory);
                     
                     Editor edit = prefs.edit();
